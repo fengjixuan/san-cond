@@ -1,0 +1,26 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/shop/shop",
+        "pages/personal/personal"
+
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+      "list": [{
+        "pagePath": "pages/shop/shop",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "个人中心"
+      }]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}
